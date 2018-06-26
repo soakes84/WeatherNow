@@ -25,7 +25,7 @@ namespace WeatherNow
         {
             using (WebClient web = new WebClient())
             {
-                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q=Charleston&appid=542ffd081e67f4512b705f89d2a611b2");
+                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q=Charleston&appid=52d21909cb6877a3e865b33b6b984a97");
 
                 var json = web.DownloadString(url);
             }
