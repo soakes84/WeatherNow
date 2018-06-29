@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeatherNow
 {
-    class weatherInfo
+    class WeatherInfo
     {
         public class coord
         {
@@ -17,9 +17,9 @@ namespace WeatherNow
 
         public class weather
         {
-            public int id { get; set;}
-            public string main { get; set;}
-            public string description { get; set;}
+            public int id { get; set; }
+            public string main { get; set; }
+            public string description { get; set; }
         }
 
         public class main
@@ -39,7 +39,7 @@ namespace WeatherNow
             public string country { get; set; }
         }
 
-        public class root
+        public class Root
         {
             public string name { get; set; }
             public sys sys { get; set; }
