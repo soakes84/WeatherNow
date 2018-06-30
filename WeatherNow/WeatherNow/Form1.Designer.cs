@@ -68,11 +68,11 @@
             // lbl_temp
             // 
             this.lbl_temp.AutoSize = true;
-            this.lbl_temp.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_temp.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_temp.ForeColor = System.Drawing.Color.Red;
             this.lbl_temp.Location = new System.Drawing.Point(159, 136);
             this.lbl_temp.Name = "lbl_temp";
-            this.lbl_temp.Size = new System.Drawing.Size(53, 37);
+            this.lbl_temp.Size = new System.Drawing.Size(62, 44);
             this.lbl_temp.TabIndex = 3;
             this.lbl_temp.Text = "99";
             // 

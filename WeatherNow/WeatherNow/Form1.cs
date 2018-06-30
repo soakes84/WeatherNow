@@ -15,18 +15,18 @@ namespace WeatherNow
     public partial class Form1 : Form
     {
         const string APPID = "542ffd081e67f4512b705f89d2a611b2";
-        string cityName = "Charleston";
+        string cityName = "Johns Island";
         public Form1()
         {
             InitializeComponent();
-            getWeather("America");
+            getWeather(cityName);
         }
 
         void getWeather(string city)
         {
             using (WebClient web = new WebClient())
             {
-                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&cnt=6", city, APPID);
+                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&cnt=6", city, APPID);
 
                 var json = web.DownloadString(url);
 
